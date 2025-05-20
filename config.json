@@ -47,7 +47,7 @@
 			"required": false,
 			"answerFormat": "ORKFileResult",
 			"providerInfo": {
-				"downloadURL": "https://example.com/files/custom-task.zip",
+				"downloadURL": "https://example.com/files/custom-task.zip"
 			}
 		}
 	],
