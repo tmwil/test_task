@@ -1,0 +1,55 @@
+{
+	"identifier": "custom-task",
+	"title": "Test Custom Task",
+	"description": "MyCap Custom Task Description",
+	"authors": [
+		{
+			"name": "Travis M. Wilson",
+			"email": "datacore@vumc.org",
+			"institution": "Vanderbilt University Medical Center"
+		}
+	],
+	"enabled": true,
+	"format": ".ThirdPartyAT",
+	"extendedConfigJson": {
+		"titleText":"Welcome to the Task",
+		"numRepeats": 3
+	},
+	"dormant": false,
+	"sortOrder": 3,
+	"notification": "",
+	"schedule": {
+		"type": ".Infinite",
+		"frequency": null,
+		"interval": 0,
+		"daysFixed": null,
+		"daysOfTheMonth": null,
+		"daysOfTheWeek": null,
+		"relativeTo": ".JoinDate",
+		"relativeOffset": 0,
+		"ends": ".Never",
+		"endAfterDays": 0,
+		"endCount": 0,
+		"endDate": null
+	},
+	"allowsSaving": false,
+	"allowsRetroactiveCompletion": false,
+	"instructionStep": null,
+	"completionStep": null,
+	"card": {
+		"type": ".Percent",
+		"dateLineCard": null
+	},
+	"fields": [
+		{
+			"identifier": "zip",
+			"title": "Zip",
+			"required": false,
+			"answerFormat": "ORKFileResult",
+			"providerInfo": {
+				"downloadURL": "https://example.com/files/custom-task.zip",
+			}
+		}
+	],
+	"triggers": null
+}
